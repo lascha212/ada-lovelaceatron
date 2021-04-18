@@ -1,1 +1,6 @@
 /build
+
+# also ignore these files
+build.gradle
+proguard-rules.pro
+
