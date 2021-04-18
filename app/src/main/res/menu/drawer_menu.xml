@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group >
+        <item
+            android:id="@+id/account_settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="Account Settings" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="Your Profile" />
+    </group>
+    <group >
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/about_construct"
+            android:title="about Construct" />
+        <item
+            android:id="@+id/projects"
+            android:icon="@drawable/ic_baseline_highlight_24"
+            android:title="Project Ideas" />
+        <item
+            android:id="@+id/leaderboard"
+            android:title="Leaderboard" />
+    </group>
+</menu>
