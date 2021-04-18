@@ -9,8 +9,96 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyAthenaAppHack">
-        <activity android:name=".DisplayMessageActivity"
+
+
+
+
+
+
+
+
+
+        <activity
+            android:name=".SettingsBuyerActivity"
+            android:label="@string/title_activity_settings_buyer"
+            android:theme="@style/Theme.MyAthenaAppHack.NoActionBar" />
+
+        <activity
+            android:name=".SettingsSellerActivity"
+            android:parentActivityName=".ProfileCompanyActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SettingsSellerActivity" />
+        </activity>
+        <activity
+            android:name=".ProfileCompanyActivity"
+            android:parentActivityName=".SignUpPageBuyerActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProfileCompanyActivity" />
+        </activity>
+        <activity
+            android:name=".SettingsPageEmptyActivity"
+            android:parentActivityName=".ProfileActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SettingsPageEmptyActivity" />
+        </activity>
+        <activity
+            android:name=".ProfileActivity"
+            android:parentActivityName=".VerifyActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ProfileActivity" />
+        </activity>
+        <activity
+            android:name=".VerifyActivity"
+            android:parentActivityName=".SignUpPageBuyerActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SignUpPageBuyerActivity" />
+        </activity>
+        <activity
+            android:name=".ActivitySignUpPageSeller"
+            android:parentActivityName=".SignUpPageActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SignUpPageActivity" />
+        </activity>
+        <activity
+            android:name=".SignUpPageBuyerActivity"
+            android:parentActivityName=".SignUpPageActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SignUpPageActivity" />
+        </activity>
+        <activity
+            android:name=".SignUpPageActivity"
             android:parentActivityName=".MainActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".DisplayMessageActivity"
+            android:parentActivityName=".MainActivity">
+
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

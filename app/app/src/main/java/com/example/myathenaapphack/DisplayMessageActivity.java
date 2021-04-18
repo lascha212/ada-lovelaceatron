@@ -20,6 +20,14 @@ public class DisplayMessageActivity extends AppCompatActivity {
         // Capture the layout's TextView and set the string as its text
         TextView textView = findViewById(R.id.textView);
         textView.setText(message);
+
+//        // Get the Intent that started this activity and extract the string
+//        Intent intent2 = getIntent();
+//        String message2 = intent2.getStringExtra(MainActivity.EXTRA_MESSAGE2);
+//
+//        // Capture the layout's TextView and set the string as its text
+//        TextView textView2 = findViewById(R.id.textView2);
+//        textView2.setText(message2);
     }
 
 }
